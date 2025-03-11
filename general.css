@@ -12,19 +12,7 @@
         }
     } */
 
-img {
-  max-width: 100%;
-  place-self: stretch;
-  object-fit: cover;
-  height: auto;
-}
-
 /* h1{
     place-self: ;
     font-size: 3vw;
 } */
-
-.nav {
-  list-style: none;
-  display: inline;
-}

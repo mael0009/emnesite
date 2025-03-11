@@ -1,4 +1,42 @@
 @font-face {
-  font-family: ;
-  src: url();
+  font-family: "openS";
+  src: url(fonts/Open_Sans/static/OpenSans_Condensed-Light.ttf);
+}
+
+@font-face {
+  font-family: "antic";
+  src: url(fonts/Antic_Didone/AnticDidone-Regular.ttf);
+}
+
+img {
+  max-width: 100%;
+  place-self: stretch;
+  object-fit: cover;
+  height: auto;
+}
+
+h1 {
+  font-family: "antic";
+}
+
+p {
+  font-family: "openS";
+}
+
+h2 {
+  font-family: "antic";
+}
+
+menu {
+  font-family: "openS";
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
 }
