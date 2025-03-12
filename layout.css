@@ -12,7 +12,7 @@ img {
   max-width: 100%;
   /* place-self: stretch; */
   object-fit: cover;
-  height: auto;
+  height: 50%;
 }
 
 h1 {
@@ -57,4 +57,11 @@ nav li {
 .grid_1-1 img {
   width: 100%;
   width: 70ch;
+}
+
+.billede {
+  max-width: 100%;
+
+  object-fit: cover;
+  height: 50%;
 }
