@@ -10,13 +10,14 @@
 
 img {
   max-width: 100%;
-  place-self: stretch;
+  /* place-self: stretch; */
   object-fit: cover;
   height: auto;
 }
 
 h1 {
   font-family: "antic";
+  text-align: center;
 }
 
 p {
@@ -27,16 +28,33 @@ h2 {
   font-family: "antic";
 }
 
-menu {
-  font-family: "openS";
-}
-
 nav li {
   display: inline;
   margin-right: 20px;
+  font-family: "openS";
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
+  justify-content: right;
+  font-family: "openS";
+}
+
+.tekst {
+  text-align: left;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.grid_1-1 img {
+  width: 100%;
+  width: 70ch;
 }
