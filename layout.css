@@ -13,6 +13,15 @@ img {
   /* place-self: stretch; */
   object-fit: cover;
   height: 50%;
+  border-radius: 1em;
+  padding: 1rem;
+}
+
+.billede {
+  max-width: 100%;
+  object-fit: cover;
+  height: 40%;
+  width: 70ch;
 }
 
 h1 {
@@ -28,10 +37,15 @@ h2 {
   font-family: "antic";
 }
 
+hr {
+  color: brown;
+}
+
 nav li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 50px;
   font-family: "openS";
+  margin-top: 1em;
 }
 
 .menu {
@@ -39,10 +53,11 @@ nav li {
   justify-content: space-between;
   justify-content: right;
   font-family: "openS";
+  padding-right: 1em;
 }
 
 .tekst {
-  text-align: left;
+  text-align: center;
   /* max-width: 600px; */
   margin: 0 auto;
   padding: 10px;
@@ -59,9 +74,16 @@ nav li {
   width: 70ch;
 }
 
-.billede {
-  max-width: 100%;
+body {
+  background-image: url(img/baggrund.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+}
 
-  object-fit: cover;
-  height: 50%;
+a {
+  color: brown;
 }

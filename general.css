@@ -1,18 +1,18 @@
-/* @media (width>=700px){
-    main {
-        max-width: 1000px;
-        margin: 0 auto
-        }
-    } */
+@media (width>=700px) {
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
 
-/* @media (width>=1200px) {
-        .grid.. {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-    } */
+@media (width>=1200px) {
+  .grid.. {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
-/* h1{
-    place-self: ;
-    font-size: 3vw;
-} */
+h1 {
+  place-self: ;
+  font-size: 3vw;
+}
