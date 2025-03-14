@@ -1,3 +1,16 @@
+h1 {
+  place-self: ;
+  font-size: 3vw;
+}
+
+@media (width>=600px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* tablet */
 @media (width>=700px) {
   main {
     max-width: 1000px;
@@ -5,14 +18,10 @@
   }
 }
 
+/* desktop */
 @media (width>=1200px) {
-  .grid.. {
+  .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-}
-
-h1 {
-  place-self: ;
-  font-size: 3vw;
 }
