@@ -16,7 +16,6 @@ img {
   /* place-self: stretch; */
   object-fit: cover;
   height: 50%;
-  border-radius: 1em;
   padding: 1rem;
 }
 
@@ -26,6 +25,7 @@ img {
   max-width: 100%;
   height: auto;
   width: 450px;
+  border-radius: 20px;
 }
 
 /* font og tekst */
@@ -123,12 +123,17 @@ nav li {
     height: auto;
     width: 330px;
     display: block;
+    border-radius: 20px;
   }
+}
+
+.foot {
+  margin-top: 500px;
 }
 
 /* baggrund */
 body {
-  background-image: url(img/baggrund.svg);
+  background-image: url(img/ny_baggrund.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
